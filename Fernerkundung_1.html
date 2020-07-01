@@ -84,16 +84,34 @@ Danach wird das Slide mit </section> beendet.
 				</section>
 <!-- Wenn Du zweimal <section> schreibst, kannst Du Slides 'nach unten' setzen. 
 -->
-				<section>
-					<section>
-						<h2>Anwednungsgebiete der Fernerkundung</h2>
+	<section id="themes">
+			<h2>Layout</h2>
+			<p>Das Design kannst Du im Kopf des Dokuments festlegen. Hier ist eine Vorschau.<br>
+				<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+				<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+				<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+				<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+				<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+				<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+				<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+				<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+				<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+				<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+				<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+				<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+			</p>
+	</section>
+				
+	<section>
+		<section>
+			<h2>Anwednungsgebiete der Fernerkundung</h2>
 						
-						<p style="text-align: center;">Nach <span class="fragment highlight-red">rechts</span> scrollen, um zum <span class="fragment highlight-blue">nächsten</span> Gliederungspunkt zu wechseln. 
-						<span class="fragment highlight-green">Pfeiltasten</span> geben die mögliche Tiefe der Folien an.</p>	  
+			<p style="text-align: center;">Nach <span class="fragment highlight-red">rechts</span> scrollen, um zum <span class="fragment highlight-blue">nächsten</span> Gliederungspunkt zu wechseln. 
+			<span class="fragment highlight-green">Pfeiltasten</span> geben die mögliche Tiefe der Folien an.</p>	  
 					
-					</section>              
+		</section>              
           
-				</section>
+	</section>
 <!-- Wenn Du zweimal <section id="fragments"> schreibst, kannst Du Text bzw. Inhalte Schritt für Schritt aufbauen. 
 -->
 <!-- Beginn der Folien mit Inhalt-->
@@ -101,6 +119,7 @@ Danach wird das Slide mit </section> beendet.
 	<section>
 		<section id="Hauptmenü" data-background="https://www.fe-lexikon.info/images/burningman4.gif">
 			<h2>Anwendungen</h2>
+			
 			<p style="text-align: center;"><a href="#/Forstwirtschaft">Forstwirtschaft</a></p>
 			<p style="text-align: center;"><a href="#/Landwirtschaft">Landwirtschaft</a></p>
 			<p style="text-align: center;"><a href="#/Bodenkunde und Geologie">Bodenkunde und Geologie</a></p>
@@ -108,6 +127,7 @@ Danach wird das Slide mit </section> beendet.
                         <p style="text-align: center;"><a href="#/Ozeanographie und Gewässerkunde">Ozeanographie und Gewässerkunde</a></p>
                         <p style="text-align: center;"><a href="#/Kartographie und GIS">Kartographie und GIS</a></p>
                         <p style="text-align: center;"><a href="#/Archäologie">Archäologie</a></p>
+			
 		</section>
 	</section>
 
@@ -291,23 +311,6 @@ Danach wird das Slide mit </section> beendet.
 		</p>
 	</section>
 	
-	<section id="themes">
-					<h2>Layout</h2>
-					<p>Das Design kannst Du im Kopf des Dokuments festlegen. Hier ist eine Vorschau.<br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-	</section>
 <!-- 
 Jeztzt sind wir fertig mit den Slides.
 Abschließend folgen noch einige Einstellungen. 
