@@ -112,15 +112,19 @@ Danach wird das Slide mit </section> beendet.
 	
 	<section>
 		<section id="Hauptmenü" data-background="https://www.impulse.de/wp-content/uploads/2015/09/Checkliste-620x340.jpg">
-			<h2>Kriterien/Gliederung</h2>
+			<h2>Gliederung</h2>
+			<p style="text-align: left;"><a href="#/Reveal.js">Reveal.js</a></p>
+			<p style="text-align: left;"><a href="#/Impress.js">Impress.js</a></p>
+			<p style="text-align: left;"><a href="#/Flowtime.js">Flowtime.js</a></p><br>
 			
-			<p style="text-align: center;">Kompatibilität (responsive Design)</p>
-			<p style="text-align: center;">Metadaten</p>
-			<p style="text-align: center;">Einbettung iFrames, Medien</p>
-			<p style="text-align: center;">Drucken</p>
-      <p style="text-align: center;">Warum gerade dieser Framework?</p>
-      <p style="text-align: center;">Fazit</p>
-      <p style="text-align: center;">Quellen</p>
+			<h2<Kriterien</h2>
+			<p style="text-align: left;">Kompatibilität (responsive Design)</p>
+			<p style="text-align: left;">Metadaten</p>
+			<p style="text-align: left;">Einbettung iFrames, Medien</p>
+			<p style="text-align: left;">Drucken</p>
+      			<p style="text-align: left;">Warum gerade dieser Framework?</p>
+      			<p style="text-align: left;">Fazit</p>
+      			<p style="text-align: left;">Quellen</p>
 			
 		</section>
 	</section>
@@ -181,99 +185,6 @@ Danach wird das Slide mit </section> beendet.
 	
 	</section>
 				
-	<section>
-		<section id="Meteorologie und Klimaforschung" data-background="#b9d8ed">
-			<h2>Meteorologie und Klimaforschung</h2>
-			<ul>
-				<li>Erfassung atmosphärischer und klimarelevanter Paramete</li>
-		       	 	<li>Überwachung des CO2 Ausstoßes, Luftqualität</li>
-		       	 	<li>Wolkenbedeckung, Wasserdampfverteilung</li>
-		       		<li>Beobachtung regionaler und kleinräumiger Klimadifferenzen (städtische Wärmeinseln)</li>
-			</ul>
-	        </section>
-		
-		<section>
-			<h4>Bilder</h4>
-			<a href="#/Hauptmenü">Hauptmenü</a>
-		</section>
-	</section>
-	
-	<section>
-		<section id="Ozeanographie und Gewässerkunde" data-background="#aed2eb">
-			<h2>Ozeanographie und Gewässerkunde</h2>
-			
-			<small>
-				<ul>
-					<li>Erkundung und Beobachtung von offenen Gewässern und des Grundwassers</li>
-					<li>Dokumentation von Hochwasser und Überflutungen</li>
-					<li>Überwachung der Gewässerbelastung und Gewässerverschmutzung (Ölverschmutzung, Grundwasserübernutzung)</li>
-					<li>Dokumentation von Strömungsmustern</li>
-					<li>Erfassung von See-Eis und Gletscherkartierung</li>
-					<li>Erfassung des Chlorophyllgehalts im Ozean</li>
-					<li>Beobachtung von Gewässer- und Meeresoberflächentemperaturen</li>
-				</ul>
-			</small>
-			
-		</section>
-		
-		<section>
-			<h4>Bilder</h4>
-			<a href="#/Hauptmenü">Hauptmenü</a>
-		</section>
-	</section>
-	
-	<section>
-		<section id="Kartographie und GIS" data-background="#e9eef2">
-			<h2>Kartographie und Geoinformationssysteme</h2>
-			<ul>
-				<li>Herstellung und Fortführung topographischer Karten und thematischer Karten</li>
-				<li>Kartierung von Landbedeckung: Gewässern, Siedlungen und Straßen</li>
-				<li>Grundlage für Nutzungsplanung, Verkehrsplanung, Landschaftsschutz und Mobilfunkplanung</li>
-				<li>Erzeugung Digitaler Oberflächenmodelle</li>
-			</ul>
-		</section>
-		
-		<section>
-			<h4>Bilder</h4>
-			<figure>	
-			 	<img src="https://www.nersc.no/sites/www.nersc.no/files/15J078R1_figure5_RGB.png" width="55%" alt="Gletschervorstoß">
-			 	<small><figcaption><a href="https://www.nersc.no/news/satellite-archives-reveal-abrupt-changes-behavior-helheim-glacier-greenland">Quelle</a></small>
-			</figur><br>
-			<a href="#/Hauptmenü">Hauptmenü</a>
-		</section>
-	</section>
-	<!--Bildunterschriften mit figurecamption einfügen.-->
-	
-	<section>
-		<section id="Archäologie" data-background-iframe="https://www.spektrum.de/lexikon/geowissenschaften/radar-interferometrie/13075" data-background-interactive> <!--YT Videos immer "Einbetten", sonst wird Zugriff verweigert.-->
-			<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
-						<h2>Archäologie</h2>
-						<p>Hier eine Einbettung einer Website mittels IFrame.</p>
-			</div>
-		</section>
-		
-		<section data-background-iframe="https://www.youtube.com/embed/L7UEZsotREY" data-background-interactive></section>				
-	</section>
-
-<!-- Ende der Folien mit Inhalt.-->				
-
-				
-	<section>
-		<h1>Überblick oder kurze Pause?</h1> 
-		<p>Drücke auf Esc oder B. Und mit Klick auf S bekommst Du eine Speakers-Ansicht</p>
-							
-	</section>
-
-	<section> 
-		<h2>Fernerkundung - Anwendungen</h2>
-		<small><p style="text-align: center;">https://www.copernicus.eu/de</p></small>
-		<figure>
-			<img src="https://www.copernicus.eu/sites/default/files/inline-images/Climate_Change_0.png" alt="Erdball Copernicus"
-		    	 width=60% />
-			<small><figcaption><a href="https://www.copernicus.eu/de/dienste/klimawandel">Quelle</a></small>
-		</figure>
-	</section>
-			
 	<section>
 		<h2>Quellen</h2>
 		<small>
