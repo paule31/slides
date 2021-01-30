@@ -61,7 +61,7 @@ Danach wird das Slide mit </section> beendet.
 					<h2 style="text-align: center; color:#000000;">Extrahierung eines "Urban Footprint" aus Sentinel-1 Daten<span style="background-color:black"></span></h2>
 					<h4 style="text-align: center; color:#000000;">Schritt-für-Schritt Anleitung mit SNAP<h4><br>	
 						<p style="text-align: left; color:#000000;">
-					 	<small><span>GEOG 312: Grundlagen der Radarfernerkundung | Team: Felix Fest & Paul Ehrhardt</small></span>
+					 	<small><span>GEOG 312: Grundlagen der Radarfernerkundung | Team: Felix Fest & Paul Ehrhardt</small>
 						</p>
 							
 				</section>
@@ -69,7 +69,9 @@ Danach wird das Slide mit </section> beendet.
 -->
 	<section id="Allgemeine Informationen" data-background="#e9eef2">
 			<h3>Allgemeine Informationen</h3>
+			<p style="text-align: justify;">
 			
+			</p>
 	</section>
 				
 <!-- Wenn Du zweimal <section id="fragments"> schreibst, kannst Du Text bzw. Inhalte Schritt für Schritt aufbauen. 
@@ -80,9 +82,9 @@ Danach wird das Slide mit </section> beendet.
 		<section id="Hauptmenü" data-background="#e9eef2">
 			<h3 style="color:black; text-align: left;">Gliederung der Schritt-für-Schritt-Anleitung</h3>
 				<p style="text-align: left;"><a href="#/Vorverarbeitung der Daten">1. Vorverarbeitung der Daten</a></p>
-				<p style="text-align: left;"><a href="#/Kohärenzberechnung">2. Kohärenzberechnung beider Aufnahmen</a></p>
-				<p style="text-align: left;"><a href="#/Erstellung des GUFs">3. Erstellung des GUF</a></p>
-				<p style="text-align: left;"><a href="#/Export des GUFs">3. Erstellung des GUF</a></p><br>
+				<p style="text-align: left;"><a href="#/Kohärenzberechnung">2. Kohärenzberechnung</a></p>
+				<p style="text-align: left;"><a href="#/Erstellung des GUFs">3. Erstellung des GUFs</a></p>
+				<p style="text-align: left;"><a href="#/Export des GUFs">4. Export des GUFs</a></p><br>
 				<p style="text-align: left;"><a href="#/Zusammenfassung">Zusammenfassung</a></p>
 				<p style="text-align: left;"><a href="#/Quellen">Quellen</a></p>
 			
@@ -90,49 +92,49 @@ Danach wird das Slide mit </section> beendet.
 	</section>
 
 	<section>
-		<section id="Vorverarbeitung der Daten" data-background="#A9F5D0">
-			<h3>Vorverarbeitung der Daten</h3>
-				<li><a href="#/Öffnen der Szenen">01. Öffnen der Szenen</a></li>
-     				<li>02. Subsets der Datensätze erstellen</li>
-     				<li>03. Korrektur des Orbitfehlers</li>
-      				<li>04. Radiometrische Kalibrierung</li>
-				<li>05. Deburst der Datensätze</li>
-     				<li>06. Multi-looking Filterung</li>
-      				<li>07. Geokodierung</li>
+		<section id="1. Vorverarbeitung der Daten" data-background="#A9F5D0">
+			<h3>1. Vorverarbeitung der Daten</h3>
+				<li><a href="#/1.1 Öffnen der Szenen">1.1 Öffnen der Szenen</a></li>
+     				<li>1.2 Subsets der Datensätze erstellen</li>
+     				<li>1.3 Korrektur des Orbitfehlers</li>
+      				<li>1.4 Radiometrische Kalibrierung</li>
+				<li>1.5 Deburst der Datensätze</li>
+     				<li>1.6 Multi-looking Filterung</li>
+      				<li>1.7 Geokodierung</li>
 		</section>
 	
-		<section id="Öffnen der Szenen" data-background="#A9F5D0"> 
-			<h3>01. Öffnen der Szenen</h3>
+		<section id="1.1 Öffnen der Szenen" data-background="#A9F5D0"> 
+			<h3>1.1 Öffnen der Szenen</h3>
 			<iframe width="840" height="472,5" src="https://www.youtube.com/embed/YGMZ7MX3gR8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 			
-		<section data-background="#A9F5D0"> 
-			<h3>02. Subsets der Datensätze erstellen</h3>
+		<section id="1.2 Subsets der Datensätze erstellen" data-background="#A9F5D0"> 
+			<h3>1.2 Subsets der Datensätze erstellen</h3>
 			<iframe width="840" height="472,5" src="https://www.youtube.com/embed/2OSeR-XhsJg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 				
-		<section data-background="#A9F5D0"> 
-			<h3>03. Korrektur des Orbitfehlers</h3>
+		<section id="1.3 Korrektur des Orbitfehlers" data-background="#A9F5D0"> 
+			<h3>1.3 Korrektur des Orbitfehlers</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/9RZOCn2T4lA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
-			<h3>04. Radiometrische Kalibrierung</h3>
+		<section id="1.4 Radiometrische Kalibrierung" data-background="#A9F5D0"> 
+			<h3>1.4 Radiometrische Kalibrierung</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/zc80YvhMW_8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
-			<h3>05. Deburst der Datensätze</h3>
+		<section id="1.5 Deburst der Datensätze" data-background="#A9F5D0"> 
+			<h3>1.5 Deburst der Datensätze</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/pB3BCfpNIig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
-			<h3>06. Multi-looking Filterung</h3>
+		<section id="1.6 Multi-looking Filterung" data-background="#A9F5D0"> 
+			<h3>1.6 Multi-looking Filterung</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/urIAysRXupI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
-			<h3>07. Geokodierung</h3>
+		<section id="1.7 Geokodierung" data-background="#A9F5D0"> 
+			<h3>1.7 Geokodierung</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/nXMhFDofnZY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
@@ -149,32 +151,32 @@ Danach wird das Slide mit </section> beendet.
 				<li>13.	Geocodierung</li>
      		</section> 
 			  
-    		<section data-background="#A9F5D0"> 
+    		<section id="08. Nicht mehr benötigte Produkte schließen" data-background="#A9F5D0"> 
 			<h3>08. Nicht mehr benötigte Produkte schließen</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/Liv1ZPVq3lQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
+		<section id="09. Ko-Registrierung der Datensätze" data-background="#A9F5D0"> 
 			<h3>09. Ko-Registrierung der Datensätze</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/5Ii-rsDANdU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
+		<section id="10. Berechnung der Kohärenz" data-background="#A9F5D0"> 
 			<h3>10. Berechnung der Kohärenz</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/Xm95-9UTEJo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
+		<section id="11. Deburst des Datensatzes" data-background="#A9F5D0"> 
 			<h3>11.	Deburst des Datensatzes</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/xIeKaoak77Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
+		<section id="12. Multi-looking Filterung" data-background="#A9F5D0"> 
 			<h3>12.	Multi-looking Filterung</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/7x9Lcf2aOV4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
+		<section id="13. Geocodierung" data-background="#A9F5D0"> 
 			<h3>13.	Geocodierung</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/4gYHMHl9S8k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
@@ -192,32 +194,32 @@ Danach wird das Slide mit </section> beendet.
       			<li>19.	Berechnung eines Global Urban Footprint</li>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
+		<section id="14. Nicht mehr benötigte Produkte schließen" data-background="#A9F5D0"> 
 			<h3>14.	Nicht mehr benötigte Produkte schließen</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/X_-8l04-ITA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
+		<section id="15. Erstellung eines Layerstacks" data-background="#A9F5D0"> 
 			<h3>15.	Erstellung eines Layerstacks</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/cbZxQW6Lq8I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
+		<section id="16. Berechnung der mittleren Rückstreuung" data-background="#A9F5D0"> 
 			<h3>16.	Berechnung der mittleren Rückstreuung</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/MODOz-ijmfw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
+		<section id="17. Berechnung der Rückstreuungsdifferenz" data-background="#A9F5D0"> 
 			<h3>17.	Berechnung der Rückstreuungsdifferenz</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/kmPXZGjBXYY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
+		<section id="18. Erstellen eines RGB-Bildes" data-background="#A9F5D0"> 
 			<h3>18.	Erstellen eines RGB-Bildes</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/V7cc64yR0iQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section data-background="#A9F5D0"> 
+		<section id="19. Berechnung eines Global Urban Footprint" data-background="#A9F5D0"> 
 			<h3>19.	Berechnung eines Global Urban Footprint</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/yay_RxPlnJU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
@@ -232,17 +234,17 @@ Danach wird das Slide mit </section> beendet.
 			<li>22. Import des Global Urban Footprints in ein GIS</li>
 		</section>
 		
-		<section id="Erstellung eines Subsets" data-background="#A9F5D0"> 
+		<section id="20. Erstellung eines Subsets" data-background="#A9F5D0"> 
 			<h3>20. Erstellung eines Subsets</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/V-MUAci0aEY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section id="Export des Global Urban Footprints" data-background="#A9F5D0"> 
+		<section id="21. Export des Global Urban Footprints" data-background="#A9F5D0"> 
 			<h3>21. Export des Global Urban Footprint</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/qyqrsCOuuH4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		
-		<section id="Import des Global Urban Footprints in ein GIS" data-background="#A9F5D0"> 
+		<section id="22. Import des Global Urban Footprints in ein GIS" data-background="#A9F5D0"> 
 			<h3>22. Import des Global Urban Footprints in ein GIS</h3>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/L2rRE3MXw_I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
